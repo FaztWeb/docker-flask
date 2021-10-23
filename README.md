@@ -5,6 +5,8 @@ This is a simple example of how create a container for a Python Flask Web Applic
 ### Installation
 
 ```shell
+git clone https://github.com/FaztWeb/docker-flask
+cd docker-flask
 docker build -t docker-flask .
 docker run --publish 3000:3000 --name docker-flask docker-flask
 ```
